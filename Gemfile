@@ -1,4 +1,4 @@
-gem 'pry'
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'bigdecimal'
@@ -6,6 +6,7 @@ gem 'fiddle'
 gem 'logger'
 gem 'mutex_m'
 gem 'ostruct'
+gem 'pry'
 
 gem 'nio4r', '~> 2.7'
 
